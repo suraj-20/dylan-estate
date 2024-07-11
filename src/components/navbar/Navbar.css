@@ -1,0 +1,15 @@
+.navbar {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  background: #fcf8f4;
+}
+
+.nav-container {
+  width: 90%;
+  margin: 0 auto;
+  height: 72px;
+}
+
+.straing-line {
+  border-left: 2px solid rgb(0, 0, 0);
+  height: 40%;
+}
