@@ -23,7 +23,7 @@
 .property-detail-container .property-detail-header {
   width: 100%;
   height: 80px;
-  gap: 32px;
+  /* gap: 32px; */
   opacity: 0px;
   background: #fcf8f4;
   border-radius: 16px 0px 0px 0px;
@@ -32,6 +32,7 @@
 .property-detail-header .property-content-heading {
   width: 195.2px;
   height: 80px;
+  cursor: pointer;
 }
 
 .property-content-heading p {
@@ -46,13 +47,26 @@
 }
 
 .property-detail-container .progress-line {
-  width: 974px;
+  width: 100%;
   height: 8px;
   top: 80px;
   left: -2px;
   gap: 0px;
   opacity: 0px;
   background: #d6d6d6;
+}
+
+/* .property-detail-container .progress-line {
+  width: 100%;
+  height: 4px;
+  background-color: #e0e0e0;
+  margin-bottom: 10px;
+  position: relative;
+} */
+
+.progress-bar {
+  height: 100%;
+  transition: width 0.3s ease;
 }
 
 .property-detail-container .property-detail-footer {
@@ -136,4 +150,43 @@ form .underline {
 .check-box-container input[type="checkbox" i] {
   background-color: #122b49;
   border-color: #122b49;
+}
+
+.property-content-heading.active {
+  background-color: #d3d3d3; /* Adjust the color as needed */
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+  text-align: center;
+  width: 40%;
+}
+
+.popup-content p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+}
+
+.popup-content .button-and-terms {
+  width: 100%;
+}
+
+.button-and-terms button {
+  width: 100%;
 }

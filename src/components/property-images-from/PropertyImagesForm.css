@@ -1,0 +1,29 @@
+.property-image-heading h4 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+
+.property-image-content h4 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+}
+
+.property-image-content .add-image-container {
+  width: 820px;
+  height: 309px;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(128, 128, 128, 0.639);
+  border-radius: 10px;
+}
+
+.add-image-container i {
+  font-size: 1.5rem;
+  color: #122b49;
+}
