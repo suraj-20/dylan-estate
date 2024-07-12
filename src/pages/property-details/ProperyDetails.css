@@ -9,7 +9,6 @@
 }
 
 .property-detail-container {
-  width: 976px;
   height: 552px;
   gap: 0px;
   border-radius: 16px 0px 0px 0px;
@@ -30,7 +29,7 @@
 }
 
 .property-detail-header .property-content-heading {
-  width: 195.2px;
+  width: 20%;
   height: 80px;
   cursor: pointer;
 }
@@ -42,7 +41,7 @@
   font-weight: 500;
   line-height: 17.6px;
   text-align: center;
-  width: 122px;
+  /* width: 122px; */
   /* height: 36px; */
 }
 
@@ -100,7 +99,7 @@
 }
 
 .form-check-in-property-detail {
-  width: 239px;
+  /* width: 239px; */
   height: 26px;
   gap: 23px;
   opacity: 0px;
@@ -141,7 +140,7 @@ form .underline {
 }
 
 .check-box-container input {
-  width: 26px;
+  /* width: 26px; */
   height: 26px;
   gap: 0px;
   opacity: 0px;
@@ -189,4 +188,18 @@ form .underline {
 
 .button-and-terms button {
   width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .property-details-page {
+    width: 90%;
+  }
+
+  .property-details-form {
+    padding: 2rem 1rem;
+  }
+
+  .form-text {
+    flex-direction: column;
+  }
 }

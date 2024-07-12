@@ -60,7 +60,7 @@ const ProperyDetails = () => {
               style={{
                 backgroundColor:
                   currentStep === index ? "#d3d3d3" : "transparent",
-              }} // Highlight the current step
+              }}
             >
               <p>{step.name}</p>
             </div>

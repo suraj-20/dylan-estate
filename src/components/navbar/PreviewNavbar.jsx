@@ -5,7 +5,7 @@ import logo1 from "../../assets/Frame2.png";
 import logo2 from "../../assets/Frame.png";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const PreviewNavbar = () => {
   return (
     <div className="navbar py-1">
       <div className="nav-container d-flex justify-content-between">
@@ -16,10 +16,10 @@ const Navbar = () => {
         </div>
         <div className="nav-links d-flex align-items-center gap-4">
           <div className="nav-link d-flex align-items-center justify-content-center gap-4">
-            <a href="/">PROPERTIES</a>
-            <a href="/">MY DASHBOARD/ACTIVITY</a>
+            <a href="/">ALL PROPERTIES</a>
+            <a href="/">WISHLIST</a>
+            <a href="/">SAVED SEARCH</a>
             <a href="/">LIST YOUR PROPERTY</a>
-            <a href="/">CONTACT US</a>
             <a href="/">MORE</a>
           </div>
           <div className="straing-line"></div>
@@ -37,4 +37,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default PreviewNavbar;

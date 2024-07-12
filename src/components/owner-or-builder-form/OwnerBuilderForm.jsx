@@ -42,6 +42,7 @@ const OwnerBuilderForm = () => {
           class="form-control"
           id="exampleInputPassword1"
           placeholder="Name"
+          required
         />
       </div>
       <div className="content-container">
@@ -65,6 +66,7 @@ const OwnerBuilderForm = () => {
             class="form-control"
             id="exampleInputPassword1"
             placeholder="99999-99999"
+            required
           />
         </div>
         <div className="or">OR</div>

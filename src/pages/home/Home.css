@@ -1,6 +1,6 @@
 .home-section {
   background: #122b49;
-  height: 90vh;
+  min-height: 90vh;
 }
 
 .header-heading {
@@ -21,13 +21,16 @@
   font-size: 16px;
   font-weight: 300;
   line-height: 20.11px;
-  width: 821px;
 }
 
 .bottom-contents {
   width: 80%;
   margin: 0 auto;
   padding: 3rem 0;
+}
+
+.left-contents {
+  width: 30%;
 }
 
 .left-contents .left-content-heading h4 {
@@ -48,8 +51,12 @@
   height: 12%;
 }
 
+.right-content {
+  width: 50%;
+}
+
 .right-content-container {
-  width: 608px;
+  width: 100%;
   height: 376px;
   gap: 0px;
   border-radius: 16px 0px 0px 0px;
@@ -60,7 +67,7 @@
 }
 
 .right-content-container .right-content-header {
-  width: 607px;
+  /* width: 607px; */
   height: 68px;
   padding: 8px 68px 0px 68px;
   gap: 32px;
@@ -79,7 +86,7 @@
 }
 
 .right-content-container .right-content-footer {
-  width: 607px;
+  width: 100%;
   height: 68px;
   position: absolute;
   top: 308px;
@@ -138,4 +145,30 @@
 .phone-or-email .or {
   font-weight: 500;
   font-size: 18px;
+}
+
+@media screen and (max-width: 900px) {
+  .header-heading {
+    padding: 2rem 0;
+  }
+
+  .bottom-contents {
+    flex-direction: column;
+    padding: 0 0 2rem 0;
+    gap: 1rem;
+  }
+
+  .left-contents {
+    width: 80%;
+  }
+
+  .right-content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .left-contents {
+    width: 100%;
+  }
 }
