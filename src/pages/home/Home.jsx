@@ -17,7 +17,7 @@ const Home = () => {
         </div>
       </div>
       <div className="bottom-contents d-flex align-items-center justify-content-between">
-        <div className="left-contents py-3 d-flex flex-column gap-2">
+        <div style={{ color: "#fff"}} className="left-contents py-3 d-flex flex-column gap-2">
           <div className="left-content-heading">
             <h4>Upload your property in 4 simple steps</h4>
           </div>

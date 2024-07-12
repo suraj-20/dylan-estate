@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./ProperyDetails.css";
-import { Link } from "react-router-dom";
 import PropertyDetailsForm from "../../components/property-details-form/PropertyDetailsForm";
 import LocationDetailsForm from "../../components/location-details-form/LocationDetailsForm";
 import FeaturesForm from "../../components/features-form/FeaturesForm";
@@ -80,7 +79,7 @@ const ProperyDetails = () => {
           {steps[currentStep].component}
         </div>
         <div className="property-detail-footer d-flex align-items-center justify-content-between">
-          <p style={{ margin: "0" }}>
+          <p style={{ margin: "0", color: "#fff" }}>
             Need Help? <span>Call 9999999999</span>
           </p>
           <div className="d-flex align-items-center justify-content-center">
