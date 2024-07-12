@@ -12,7 +12,7 @@
 .top-preview-content .left-preview-content {
   /* width: 838px; */
   width: 65%;
-  opacity: 0px;
+  ;
 }
 
 .top-preview-content .right-preview-content {
@@ -23,7 +23,7 @@
   top: 15px;
   left: 953px;
   gap: 32px;
-  opacity: 0px;
+  ;
 }
 
 .property-name-or-location h3 {
@@ -50,7 +50,7 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background: rgba(128, 128, 128, 0.304);
   border-radius: px;
-  opacity: 0px;
+  ;
   /* position: absolute; */
 }
 
@@ -62,7 +62,7 @@
   left: 0px;
   padding: 14px 9px 14px 9px;
   gap: 10px;
-  opacity: 0px;
+  ;
   /* angle: 90 deg; */
   background: #ffffff;
 }
@@ -75,7 +75,7 @@
   left: 95%;
   padding: 14px 9px 14px 9px;
   gap: 10px;
-  opacity: 0px;
+  ;
   background: #ffffff;
   /* angle: 90 deg; */
 }
@@ -88,7 +88,7 @@
   padding: 8px 0px 8px 24px;
   gap: 0px;
   justify-content: space-between;
-  opacity: 0px;
+  ;
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0.64) 0%,
@@ -102,7 +102,7 @@
   padding: 40px 36px 40px 36px;
   gap: 60px;
   border-radius: 4px 0px 0px 0px;
-  opacity: 0px;
+  ;
   border: 1px solid rgba(128, 128, 128, 0.404);
   border-radius: 6px;
 }
@@ -113,7 +113,7 @@
   padding: 40px 36px 40px 36px;
   gap: 60px;
   border-radius: 4px 0px 0px 0px;
-  opacity: 0px;
+  ;
   border: 1px solid rgba(128, 128, 128, 0.404);
   border-radius: 6px;
 }
@@ -124,7 +124,7 @@
   padding: 40px 36px 40px 36px;
   gap: 25px;
   border-radius: 4px 0px 0px 0px;
-  opacity: 0px;
+  ;
   border: 1px solid rgba(128, 128, 128, 0.404);
   border-radius: 6px;
 }
@@ -135,7 +135,7 @@
   padding: 20px 15px;
   gap: 0px;
   justify-content: space-between;
-  opacity: 0px;
+  ;
   background: #f6efe6;
 }
 
@@ -150,7 +150,7 @@
   /* width: 427px; */
   /* height: 517px; */
   gap: 0px;
-  opacity: 0px;
+  ;
   background: #f6efe6;
   padding: 1rem;
 }
@@ -223,7 +223,7 @@ form .like-more-info {
   gap: 36px;
   border-radius: 4px 0px 0px 0px;
   border: 0.5px 0px 0px 0px;
-  opacity: 0px;
+  ;
   background: #ffffff;
   border: 0.5px solid #d6d6d6;
   box-shadow: 0px 1px 16px 4px #6c655d24;
@@ -236,7 +236,7 @@ form .like-more-info {
   gap: 60px;
   border-radius: 4px 0px 0px 0px;
   border: 0.8px 0px 0px 0px;
-  opacity: 0px;
+  ;
   background: #ffffff;
   border: 0.8px solid #d6d6d6;
 }
@@ -246,7 +246,7 @@ form .like-more-info {
   /* height: 567px; */
   padding: 69px 0px;
   gap: 0px;
-  opacity: 0px;
+  ;
   background: #fdfaf7;
 }
 
@@ -262,7 +262,7 @@ form .like-more-info {
   gap: 60px;
   border-radius: 4px 0px 0px 0px;
   border: 0.8px 0px 0px 0px;
-  opacity: 0px;
+  ;
   background: #ffffff;
   border: 0.8px solid #d6d6d6;
 }
@@ -270,14 +270,14 @@ form .like-more-info {
 .reviews-container {
   height: 200px;
   gap: 166px;
-  opacity: 0px;
+  ;
 }
 
 .reviews-container .review-contents {
   width: 511px;
   height: 145px;
   gap: 20px;
-  opacity: 0px;
+  ;
 }
 
 .similiar-property-cards .property-cards {

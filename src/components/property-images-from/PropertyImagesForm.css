@@ -15,7 +15,7 @@
 .property-image-content .add-image-container {
   width: 820px;
   height: 309px;
-  opacity: 0px;
+  ;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -12,7 +12,7 @@
   height: 552px;
   gap: 0px;
   border-radius: 16px 0px 0px 0px;
-  opacity: 0px;
+  ;
   background: #ffffff;
   /* border: 1px solid #000; */
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -23,7 +23,7 @@
   width: 100%;
   height: 80px;
   /* gap: 32px; */
-  opacity: 0px;
+  ;
   background: #fcf8f4;
   border-radius: 16px 0px 0px 0px;
 }
@@ -51,7 +51,7 @@
   top: 80px;
   left: -2px;
   gap: 0px;
-  opacity: 0px;
+  ;
   background: #d6d6d6;
 }
 
@@ -76,7 +76,7 @@
   padding: 10px 32px 10px 32px;
   gap: 0px;
   justify-content: space-between;
-  opacity: 0px;
+  ;
   background: #122b49;
 }
 
@@ -86,7 +86,7 @@
   top: 108px;
   left: 68px;
   gap: 60px;
-  opacity: 0px;
+  ;
   padding: 3rem 5rem;
 }
 
@@ -95,21 +95,21 @@
   height: 26px;
   padding: 0px 8px 0px 8px;
   gap: 24px;
-  opacity: 0px;
+  ;
 }
 
 .form-check-in-property-detail {
   /* width: 239px; */
   height: 26px;
   gap: 23px;
-  opacity: 0px;
+  ;
 }
 
 .form-check-in-property-detail input {
   width: 26px;
   height: 26px;
   gap: 0px;
-  opacity: 0px;
+  ;
 }
 
 .form-check-input:checked {
@@ -143,7 +143,7 @@ form .underline {
   /* width: 26px; */
   height: 26px;
   gap: 0px;
-  opacity: 0px;
+  ;
 }
 
 .check-box-container input[type="checkbox" i] {
